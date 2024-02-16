@@ -2,54 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Kinobillett kjøp</title>
+    <title>Odeon Nydalen</title>
     <script src="kinobilletter.js"></script>
 </head>
 <body>
-<h1>Bestilling av kinobilletter</h1>
 
-<label for="filmer">Velg film:</label>
+<h1>Bestilling av Kinobilletter</h1>
+
+
+<label for="filmer">Velg film</label>
 <select id="filmer">
     <option value="Velg film her">Velg film her</option>
     <option value="Batman Begins">Batman Begins</option>
-    <option value="The Dark Knight">The Dark Knight</option>
-    <option value="The Dark Knight Rises">The Dark Knight Rises</option>
+    <option value="Dark Knight">Dark Knight</option>
+    <option value="Dark Knight Rises">Dark Knight Rises</option>
 </select>
 
-    <br>
-    <br>
+<br>
+<br>
 
-<label for="antallBillett">Antall:</label>
+<label for="antallBillett">Antall</label>
 <input id="antallBillett" type="text">
-<span id="feilAntall" style="color: red"></span>
+<span id="feilAntall" style="color: darkred"></span>
 
-    <br>
-    <br>
+<br>
+<br>
 
-
-<label for="velgFornavn">Fornavn:</label>
+<label for="velgFornavn">Fornavn</label>
 <input id="velgFornavn" type="text">
-<span id="feilFornavn" style="color: red"></span>
+<span id="feilFornavn" style="color: darkred"></span>
 
-    <br>
+<br>
+<br>
 
-<label for="velgEtternavn">Etternavn:</label>
+<label for="velgEtternavn">Etternavn</label>
 <input id="velgEtternavn" type="text">
-<span id="feilEtternavn" style="color: red"></span>
+<span id="feilEtternavn" style="color: darkred"></span>
 
-    <br>
 
-<label for="velgTlfNr">Telefonnr:</label>
-<input id="velgTlfNr" type="text">
-<span id="feilTlfNr" style="color: red"></span>
+<br>
+<br>
 
-    <br>
+<label for="velgtlfNr">Telefonnr</label>
+<input id="velgtlfNr" type="text">
+<span id="feilTlfnr" style="color: darkred"></span>
 
-<label for="velgEpost">Epost:</label>
+<br>
+<br>
+
+<label for="velgEpost">Epost</label>
 <input id="velgEpost" type="text">
-<span id="feilEpost" style="color: red"></span>
+<span id="feilEpost" style="color: darkred"></span>
 
-    <br>
+<br>
+<br>
 
 <button onclick="kjopBillett();">Kjøp billett</button>
 
@@ -57,7 +63,11 @@
 
 <div id="utskrift"></div>
 
-<button onclick="slettBillett();">Slett alle billettene</button>
+<br>
+<br>
 
-</body>
-</html>
+<button onclick="slettBillett()">Slett alle billettene</button>
+
+<br>
+<br>
+
