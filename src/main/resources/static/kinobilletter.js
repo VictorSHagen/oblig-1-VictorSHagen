@@ -67,7 +67,7 @@ function skrivUt() {
     for (let i = 0; i < billettene.length; i++) {
         ut += billettene[i].film + " " + billettene[i].antall + " " + billettene[i].fornavn
             + " " + billettene[i].etternavn + " " + billettene[i].telefonnummer +
-            " " + billettene[i].epost + "\n";
+            " " + billettene[i].epost + "<br>";
     }
     document.getElementById("utskrift").innerHTML = ut;
 }
